@@ -1,0 +1,111 @@
+*root{
+  font-size: 62.5%;
+}
+
+body{
+  margin: 0;
+  background-color: rgba(22, 22, 22, 0.959);
+
+
+}
+.container{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+
+  color: #ffffff;
+
+}
+
+.cabecalho{
+  width: 100%;
+  background-color: rgba(17, 17, 17, 0.979);
+}
+
+.topo{
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.meu_nome{
+  margin: 1rem 30rem 0rem 5rem;
+  color:rgb(0, 225, 255);
+}
+
+ 
+.topo a {
+  float: right;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  padding-top: 0;
+  text-decoration: none;
+
+}
+.topo a:hover{
+  border-bottom: 1px solid rgb(75, 78, 209);
+}
+.meio{
+  height: 100%;
+  display: flex;
+}
+
+.principal_textos{
+  width: 40%;
+  margin-left: 5rem;
+  text-align: justify;
+}
+
+.minha_imagem{
+  width: 30%;
+  margin-left: 15rem;
+  margin-top: 3rem;
+}
+
+.minha_imagem img{
+  border-radius: 50%;
+  border: 2px solid rgb(0, 140, 255);
+}
+
+.minha_imagem img:hover{
+  box-shadow: 1px 1px 10px 1px rgb(0, 225, 255) ;
+}
+
+.minhas_stacks{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 5rem;  
+}
+
+.minhas_stacks h2{
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+}
+
+.minhas_stacks img{
+  margin-left: 3rem;
+}
+
+.botao{
+  text-decoration: none;
+  margin: auto;
+  margin-left: 4rem;
+
+}
+
+.botao button{
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  color: #ffffff;
+  background-color: rgb(0, 140, 255) ;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.botao button:hover{
+  background-color: rgb(2, 92, 167) ;
+  cursor: pointer;
+}
+
+
